@@ -58,7 +58,7 @@ public class Principal {
 				System.out.println("informe o nome do paciente");
 				nomePaciente = scaner.next();
 				// mostra consultas que possuam o nome do paciente
-				
+				gerenciadorDeConsultas.consultarPorNomePacinete(nomePaciente);
 			}
 			if (opcao == 3) {
 				System.out.println("informe o codigo da consulta");
